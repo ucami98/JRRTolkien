@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+header{
+  text-align: center;
+  background-color: #202020bd;
+  height: 60px;
+  display: flex;
+}
+#banner{
+  height: 650px;
+  position: relative;
+  c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imgBn{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+#infoBn{
+  background-color: #00000000;
+  padding: 50px;
+  position: absolute;
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+  margin: auto;
+  color: beige;
+}
+
+#tituloBn{
+  line-height: 1;
+  font-size: 2.5em;
+  vertical-align: top;
+  color: rgb(239, 184, 16);
+}
+
+a {
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  position: fixed;
+  height: 35px;
+ right: 48%;
+}
+
+footer {
+  background-color: rgba(63, 65, 0, 0.705);
+  position: relative;
+  text-align: center;
+  bottom: -5;
+  width: 100%;
+  height: 20px;
+  color: rgb(0, 0, 0);
+}

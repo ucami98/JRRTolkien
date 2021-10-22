@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+
+header{
+text-align: center;
+background-color: #202020bd;
+height: 60px;
+display: flex;
+}
+a {
+color: whitesmoke;
+font-size: 1.5em;
+text-align: center;
+position: fixed;
+height: 35px;
+right: 48%;
+}
+div{text-align: center;
+display: inline-block;
+position: relative;
+right: -18%;}
+
+footer {
+background-color: rgba(63, 65, 0, 0.705);
+position: relative;
+text-align: center;
+bottom:  auto;
+width: 100%;
+height: 20px;
+color: rgb(0, 0, 0);
+}
+img{display: inline-block;
+  margin: 10px;
+position: relative;
+height: 400px;
+width: 300px; }
+article{
+  background: #000000
+}
